@@ -1,4 +1,7 @@
 var SinhVienService = function () {
+
+    this.themSinhVien = 'testGit';
+
     this.xoaSinhVien = function (maSV) {
         return axios({
             url: 'http://svcy.myclass.vn/api/SinhVien/XoaSinhVien/'+maSV,

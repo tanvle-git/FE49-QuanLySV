@@ -211,6 +211,9 @@ var layDuLieuLocalStorage = function () {
 
 layDuLieuLocalStorage();
 
+var hienThiThongTinSinhVIen = function () {
+    console.log('Tấn code, hiển thị thông tin sinh viên');
+}
 
 
 console.log(axios);
